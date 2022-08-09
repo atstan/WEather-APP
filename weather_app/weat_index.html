@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>WEATHER APP</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="weatstyle.css">
+    </head>
+    <body>
+
+        <form action="" id="searchin">
+            <input type="search" placeholder="Enter City Name" id="search_input" required autocomplete="off"/>
+            <br>
+        </br>
+
+        <button id="btn-srch">Search</button>
+
+        </form>
+
+
+
+        <main id="container">
+            <div id="location">
+                <p>-------------</p>
+            </div>
+
+            <div id="temp">
+                <img   src="./webicons/weather.png" alt="" id="temp-icon" >
+                <p><span id="temp-val">-------------</span> <span id="temp-unit" >&#176c</span>
+                </p>
+            </div>
+
+
+            <div id="climate">
+                <p>-------------</p>
+            </div>
+        </main>
+
+        
+        <script src="wescript.js" async defer></script>
+    </body>
+</html>

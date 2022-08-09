@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* body{
+    height: 100px;
+    background-color: #ff3967;
+} */
+
+body{
+    background:url(https://images.unsplash.com/photo-1461696114087-397271a7aedc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+    background-repeat: no-repeat;
+    background-size:cover;
+    overflow:hidden;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+#searchin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+#temp {
+    text-align: center;
+}
+
+#temp #temp-val {
+    font-family: sans-serif;
+    font-size: 2rem;
+    color: antiquewhite;
+}
+
+#temp #temp-unit {
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    color: antiquewhite;
+}
+
+#climate {
+    font-family: sans-serif;
+    font-size: 2.7rem;
+    color: antiquewhite;
+    text-align: center;
+}
+
+#location {
+    font-family: sans-serif;
+    font-size: 2.7rem;
+    color: antiquewhite;
+    text-align: center;
+}
+
+#temp-icon {
+    margin: 2rem;
+    width: 40%;
+    height: auto;
+}
+
+main{
+
+    padding: 20px;
+    margin-top: 10px;
+    /* background-color: #d6125a; */
+    border-radius: 20px;
+    width: 360px;
+    height: 360px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    backdrop-filter: blur(14px);
+    background-color: #42378f;
+background-image: linear-gradient(315deg, #42378f 0%, #f53844 74%);
+
+
+
+
+}
+
+#btn-srch
+{
+    color: #494949;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: rgb(189, 123, 255);
+    border-radius: 5px;
+    margin-left: 5px;
+    padding: 11px;
+    border: 2px solid #ad39f0;
+    display: inline-block;
+    transition: all 0.4 ease 0s;
+}
+#btn-srch:hover{
+
+color: #ffffff;
+background: #0f0ca2;
+border-color: #3b0578;
+transition: all 0.4s ease 0s;
+
+
+
+}
+
+#search_input
+{
+    width: 260px;
+    overflow: hidden;
+    font-size: 20px;
+    margin: 8px 0;
+    padding: 8px 0;
+    border-bottom: 3px solid #a81173;
+    color: white;
+    outline: none;
+    background: none;
+}
+input
+{
+    border: none;
+}
